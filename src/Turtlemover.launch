@@ -1,0 +1,4 @@
+<launch>
+  <node name="SES_turtlesim_mover" pkg="turtlesim" type="turtlesim_node" output="screen" />
+  <node name="turtlemover" pkg="SES" type="turtlemover.py"  output="screen" />
+</launch>
